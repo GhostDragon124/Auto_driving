@@ -1,0 +1,30 @@
+environment setup:
+
+conda create -n env python=3.8
+download carla：wget https://carla-releases.s3.eu-west-3.amazonaws.com/Linux/CARLA_0.9.14.tar.gz
+pip install carla
+pip install requirments
+
+Open jupter notebook
+1.Run conda activate carla
+2.Run Carla
+3.open file:cd D:\Github\self-driving-experiments-in-carla\CARLA_0.9.14\PythonAPI\examples
+
+4.Run:
+python .\generate_traffic.py
+or:
+python .\generate_traffic.py -n 80
+
+python .\dynamic_weather.py
+
+5.open file:cd D:\Github\self-driving-experiments-in-carla\yolov3_v4_v5_object_detection
+
+
+6.Runpython .\object_detection_v4.py
+
+
+
+
+
+
+
